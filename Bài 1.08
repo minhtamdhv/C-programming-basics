@@ -1,4 +1,4 @@
-//Nhập vào một số thực x, tính giá trị của hàm số sin(x), cos(x), sin(x) + cos(x) và sin(x)-cos(x).
+//Nhập vào một số thực x, tính giá trị của hàm số sin(x), cos(x), sin(x) + cos(x) và sin(x)-cos(x). 
 #include <stdio.h>
 #include <math.h>
 int main() {
