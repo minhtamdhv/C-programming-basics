@@ -1,0 +1,16 @@
+//Viết chương trình nhập vào 2 giá trị thực, hoán đổi và in ra giá trị của 2 biến đó, địa chỉ của 2 biến trước và sau hoán đổi
+
+#include <stdio.h>
+#include <conio.h>
+int main(){
+	float a,b;
+	printf("nhap gia tri a va b: ");
+	scanf("%f%f", &a, &b);
+	printf("dia chi cua a là %d và b la %d\n", &a, &b);
+	float c = a;
+	a = b;
+	b = c;
+	printf("gia tri sau khi hoan doi: a=%f, b=%f\n",a,b);
+	printf("gia tri dia chi sau hoan doi: \n a=%d, \n b=%d", &a, &b);
+	return 0;
+}
