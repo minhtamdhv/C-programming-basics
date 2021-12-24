@@ -1,0 +1,18 @@
+//Viết chương trình nhập vào một số có 3 chữ số. Tính và in ra tổng, tích các chữ số. Ví dụ nhập n = 223, in ra tổng = 7, tích = 12.
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int n;
+	printf("nhap 1 so co 3 chu so:");
+	scanf("%d", &n);
+	int d1 = n % 10;
+  n = n / 10;
+	int d2 = n % 10;
+  n = n / 10;
+	int d3 = n % 10;
+  int s = d1 + d2 + d3;
+  int t = d1 * d2 * d3;
+	printf("\ntong = %d, tich  = %d", s,t);
+  return 0;
+}
