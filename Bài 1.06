@@ -1,7 +1,6 @@
 //Viết chương trình nhập giá trị cho hai biến nguyên a, b và in ra kết quả của các biểu thức: a + b; ++a + b; a++ + b; --a + b; a-- + b; a ++ + ++b; a++ + b++; a-- + b--;
 
 #include <stdio.h>
-
 int main() {
     int a,b ;
     int n;
