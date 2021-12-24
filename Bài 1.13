@@ -1,0 +1,21 @@
+//Viết chương trình nhập vào 6 số thực. Tính diện tích và chu vi của tam giác có toạ độ đỉnh là 6 số thực đó.
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	float x1, y1, x2, y2, x3, y3;
+	printf("Nhap x1 va y1:");
+	scanf("%f%f", &x1, &y1);
+	printf("Nhap x2 va y2:");
+	scanf("%f%f", &x2, &y2);
+	printf("Nhap x3 va y3:");
+	scanf("%f%f", &x3, &y3);
+	float a = sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2));
+	float b = sqrt((x2 - x3)*(x2 - x3) + (y2 - y3)*(y2 - y3));
+	float c = sqrt((x3 - x1)*(x3 - x1) + (y3 - y1)*(y3 - y1));
+	float p = (a + b + c) / 2;
+	float s = sqrt(p*(p - a)*(p - b)*(p - c));
+	printf("Chu vi = %f", 2 * p);
+	printf("\n Dien tich = %f", s);
+             return 0;
+}
