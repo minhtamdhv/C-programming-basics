@@ -1,6 +1,5 @@
 //Viết chương trình nhập 3 số nguyên a, b và c. In ra màn hình tổng  a^2 + b^2 + c^2.
- 
-#include <stdio.h>
+ #include <stdio.h>
     int main()
     {	
        int a,b,c;
