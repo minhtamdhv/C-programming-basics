@@ -1,0 +1,15 @@
+//Viết chương trình tính diện tích và chu vi hình tròn với bán kính là một số thực được nhập vào từ bàn phím.
+#include <stdio.h>
+#include <conio.h>
+int main(){
+//khai báo hằng so pi
+#define pi  3.14
+int main(){
+float r, s, p;
+printf("nhap ban kinh r =  ");
+scanf("%f",&r);
+s = pi * r * r;
+p = 2 * r * pi;
+printf(" dien tich = %f\n chu vi = %f", s,p);
+return 0;
+}
