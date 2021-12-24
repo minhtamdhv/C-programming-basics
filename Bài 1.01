@@ -1,6 +1,6 @@
 //Viết chương trình nhập vào một ký tự, in ra số thứ tự trong bảng mã ASCII.
 #include <stdio.h>
-int main(){
+	int main(){
 	char n;
 	printf("nhap mot ky tu: ");
 	scanf("%c", &n);
