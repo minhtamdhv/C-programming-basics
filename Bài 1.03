@@ -1,4 +1,4 @@
-Viết chương trình nhập vào một ký tự, in ra ký tự đứng sau nó trong bảng mã ASCII.
+//Viết chương trình nhập vào một ký tự, in ra ký tự đứng sau nó trong bảng mã ASCII.
 #include <stdio.h>
 int main()
 {	
