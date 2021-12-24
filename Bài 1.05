@@ -1,5 +1,5 @@
-Viết chương trình nhập giá trị cho hai biến nguyên i, j và in ra kết quả của các biểu thức: i > j, i < j, i >= j, i <= j, i == j, i != j.
-Cách 1:
+//Viết chương trình nhập giá trị cho hai biến nguyên i, j và in ra kết quả của các biểu thức: i > j, i < j, i >= j, i <= j, i == j, i != j.
+
 #include <stdio.h>
 int main(){
   int i, j;
