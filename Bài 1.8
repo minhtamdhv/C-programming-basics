@@ -1,0 +1,17 @@
+//Nhập vào một số thực x, tính giá trị của hàm số sin(x), cos(x), sin(x) + cos(x) và sin(x)-cos(x).
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float x;
+    printf("nhâp số thực x: ");
+    scanf("%f",&x);
+    float z1 = sin(x);
+    float z2 = cos(x);
+    float z3 = sin(x) + cos(x);
+    float z4 = sin(x)-cos(x);
+    printf("\nsin(x) = %f", z1);
+    printf("\ncos(x) = %f", z2);
+    printf("\nsin(x) + cos(x) = %f", z3);
+    printf("\nsin(x) - cos(x) = %f", z4);
+    return 0;
+}
