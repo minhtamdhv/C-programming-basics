@@ -1,0 +1,13 @@
+//Viết chương trình nhập vào một số thực x. Tính và in ra phần nguyên và phần lẻ của x. Ví dụ nhập x = 123.456 thì in ra phần nguyên của x là 123 và phần lẻ của x là 0.456.
+#include <stdio.h>
+
+int main() {
+    float x,z;
+    int y;
+    printf("nhap so thuc x= ");
+    scanf("%f",&x);
+    y =(int) x;
+    z= x -y;
+    printf("phan nguyen là: %d  \nphan le la: %f  ",y,z);
+    return 0;
+}
