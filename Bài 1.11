@@ -1,0 +1,11 @@
+//Viết chương trình nhập vào 2 cạnh của một hình chữ nhật, tính và in ra màn hình diện tích và chu vi của hình chữ nhật.
+#include <stdio.h>
+int main (){
+	float a,b,p,s;
+	printf("nhap canh a va b: ");
+	scanf("%f%f", &a, &b);
+	s = a * b;
+	p = 2 *(a + b);
+	printf(" dien tich = %f\n chu vi = %f", s,p);
+	return 0;
+}
