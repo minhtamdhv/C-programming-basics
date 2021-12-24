@@ -1,0 +1,27 @@
+//Viết chương trình nhập giá trị cho hai biến nguyên a, b và in ra kết quả của các biểu thức: a + b; ++a + b; a++ + b; --a + b; a-- + b; a ++ + ++b; a++ + b++; a-- + b--;
+
+#include <stdio.h>
+
+int main() {
+    int a,b ;
+    int n;
+    printf("\n nhập gia tri nguyen a va b: ");
+    scanf("%d%d",&a,&b);
+    n = a +b;
+    printf("\nket qua a + b: %d",n);
+    n = ++a + b;
+    printf("\nket qua ++a + b: %d",n);
+    n = a++ + b; a--; a--;
+    printf("\nket qua a++ + b: %d",n);
+    n = --a + b;
+    printf("\nket qua --a + b: %d",n);
+    n = a-- + b; a++; b++; b++;
+    printf("\nket qua a-- + b: %d",n);
+    n = a ++ + ++b; b--;
+    printf("\nket qua a++ + ++b: %d",n);
+    n = a++ + b++; a--; b--; a--; b--; a--; b--;
+    printf("\nket qua a++ + b++: %d",n);
+    n = a-- + b--;
+    printf("\nket qua a-- + b--: %d",n);
+    return 0;
+}
